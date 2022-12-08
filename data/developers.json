@@ -2,23 +2,23 @@
   {
     "_id": 14,
     "email": "edgar@gmail.com",
-    "given": "Edgar",
-    "family": "Alvarado",
-    "city": "Machala",
-    "state": "El Oro",
-    "zip": 170209,
-    "country": "ECU",
+    "nombre": "Edgar",
+    "apellido": "Alvarado",
+    "ciudad": "Machala",
+    "provincia": "El Oro",
+    "codigo_postal": 170209,
+    "pais": "ECU",
     "URL": "https://www.espoch.edu.ec/"
   },
   {
     "_id": 15,
     "email": "carlos@gmail.com",
-    "given": "Carlos",
-    "family": "Alvarez", 
-    "city": "Riobamba",
-    "state": "Chimborazo",
-    "zip": 151515,
-    "country": "ECU",
+    "nombre": "Carlos",
+    "apellido": "Alvarez", 
+    "ciudad": "Riobamba",
+    "provincia": "Chimborazo",
+    "codigo_postal": 151515,
+    "pais": "ECU",
     "URL": "https://www.espoch.edu.ec/"
   }
 ]

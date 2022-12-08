@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const DeveloperSchema = new mongoose.Schema({
+const DesarrolladorSchema = new mongoose.Schema({
 
   _id: {
     type: Number,
@@ -13,55 +13,48 @@ const DeveloperSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  given: {
+  nombre: {
     type: String,
     minlength: 3,
     maxlength: 100,
-    required: false,
-    default: 'Given name'
+    required: false
   },
-  family: {
+  apellido: {
     type: String,
     minlength: 3,
     maxlength: 100,
-    required: false,
-    default: 'Family name'
+    required: false
   },
-  city: {
+  ciudad: {
     type: String,
     minlength: 3,
     maxlength: 100,
-    required: true,
-    default: 'Maryville'
+    required: true
   },
-  state: {
+  provincia: {
     type: String,
     minlength: 2,
     maxlength: 100,
-    required: true,
-    default: 'MO'
+    required: true
   },
-  zip: {
+  codigo_postal: {
     type: String,
     minlength: 5,
     maxlength: 12,
-    required: true,
-    default: '64468'
+    required: true
   },
-  country: {
+  pais: {
     type: String,
     minlength: 5,
     maxlength: 100,
-    required: true,
-    default: 'USA'
+    required: true
   },
   url: {
     type: String,
     minlength: 4,
     maxlength: 100,
-    required: true,
-    default: 'http://yourwebsite.com'
+    required: true
   }
 
 })
-module.exports = mongoose.model('Developer', DeveloperSchema)
+module.exports = mongoose.model('Developer', DesarrolladorSchema)
