@@ -1,0 +1,24 @@
+[
+  {
+    "_id": 14,
+    "email": "edgar@gmail.com",
+    "given": "Edgar",
+    "family": "Alvarado",
+    "city": "Machala",
+    "state": "El Oro",
+    "zip": 170209,
+    "country": "ECU",
+    "URL": "https://www.espoch.edu.ec/"
+  },
+  {
+    "_id": 15,
+    "email": "carlos@gmail.com",
+    "given": "Carlos",
+    "family": "Alvarez", 
+    "city": "Riobamba",
+    "state": "Chimborazo",
+    "zip": 151515,
+    "country": "ECU",
+    "URL": "https://www.espoch.edu.ec/"
+  }
+]
