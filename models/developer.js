@@ -36,25 +36,6 @@ const DesarrolladorSchema = new mongoose.Schema({
     minlength: 2,
     maxlength: 100,
     required: true
-  },
-  codigo_postal: {
-    type: String,
-    minlength: 5,
-    maxlength: 12,
-    required: true
-  },
-  pais: {
-    type: String,
-    minlength: 5,
-    maxlength: 100,
-    required: true
-  },
-  url: {
-    type: String,
-    minlength: 4,
-    maxlength: 100,
-    required: true
   }
-
 })
 module.exports = mongoose.model('Developer', DesarrolladorSchema)

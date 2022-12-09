@@ -13,6 +13,7 @@ api.get('/buscarTodos', (req, res) => {
 
 // Obtener por id
 api.get('/buscarPorId/:id', (req, res) => {
+  
   res.setHeader('Content-Type', 'application/json')
   const id = parseInt(req.params.id)
   const data = req.app.locals.developers.query
