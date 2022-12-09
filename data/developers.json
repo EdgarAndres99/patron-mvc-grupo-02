@@ -1,7 +1,7 @@
 [
   {
     "_id": 1,
-    "email": "edgar@gmail.com",
+    "correo": "edgar@gmail.com",
     "nombre": "Edgar",
     "apellido": "Alvarado",
     "ciudad": "Santa Rosa",
@@ -11,7 +11,7 @@
   },
   {
     "_id": 2,
-    "email": "nestor@gmail.com",
+    "correo": "nestor@gmail.com",
     "nombre": "Nestor",
     "apellido": "Tigasi", 
     "ciudad": "Quito",
@@ -19,7 +19,7 @@
   },
   {
     "_id": 3,
-    "email": "pamela@gmail.com",
+    "correo": "pamela@gmail.com",
     "nombre": "Pamela",
     "apellido": "Luna", 
     "ciudad": "Riobamba",
@@ -27,7 +27,7 @@
   },
   {
     "_id": 4,
-    "email": "nestor@gmail.com",
+    "correo": "kelly@gmail.com",
     "nombre": "Kelly",
     "apellido": "Sánchez", 
     "ciudad": "Riobamba",

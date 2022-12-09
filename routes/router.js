@@ -3,7 +3,7 @@ const express = require('express')
 // Crear un enrutador
 const router = express.Router()
 
-// Manejar rutas de inicio
+// Envio de archivos estáticos
 router.get('/', (req, res, next) => {
   console.log('Request to /')
   res.sendFile('index.html')

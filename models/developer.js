@@ -6,7 +6,7 @@ const DesarrolladorSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  email: {
+  correo: {
     type: String,
     minlength: 5,
     maxlength: 100,
